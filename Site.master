@@ -1,0 +1,94 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <script src="../Scripts/jquery-1.7.1.min.js" type="text/javascript"></script>
+	<link href ="~/Styles/jquery-ui-1.8.18.custom.css" rel ="Stylesheet" type="text/css" />
+    <script src="../scripts/PrintElement.js" type="text/javascript"></script>
+    <script src="../Scripts/jquery.ui.core.js" type="text/javascript" ></script>
+    <script src="../Scripts/jquery.ui.widget.js" type="text/javascript" ></script>
+    <script src="../Scripts/jquery.ui.datepicker.js" type="text/javascript" ></script>
+    <script type ="text/javascript">
+        function printPage(idOfWebPart) {
+            var printElement = document.getElementById(idOfWebPart);
+            $(printElement).printArea({ mode: "popup", popClose: false });
+        };
+</script>
+
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+    <div class="page">
+        <div class="header">
+            <div class="title">
+                <h1>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    BLOODBANK MANAGEMENT SYSTEM
+                </h1>
+            </div>
+            <div class="loginDisplay">
+                <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+                    <AnonymousTemplate>
+                        [ <a href="~/Account/Login.aspx" ID="HeadLoginStatus" runat="server">Log In</a> ]
+                    </AnonymousTemplate>
+                    <LoggedInTemplate>
+                        Welcome <span class="bold"><asp:LoginName ID="HeadLoginName" runat="server" /></span>!
+                        [ <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Log Out" LogoutPageUrl="~/"/> ]
+                    </LoggedInTemplate>
+                </asp:LoginView>
+            </div>
+            <div class="clear hideSkiplink">
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Home"/>
+                        <asp:MenuItem Text="Admin" Value="Admin">
+                            <asp:MenuItem NavigateUrl="~/protected/Infoadmin.aspx" Text="Information" 
+                                Value="Information"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Account/Register.aspx" Text="Register" 
+                                Value="Add User"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/protected/Users.aspx" Text="Users List" 
+                                Value="Users List"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/protected/Addbank.aspx" Text="Add Bank" 
+                                Value="Add Bank"></asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/Infouse.aspx" Text="Information" 
+                            Value="Information">
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Banks" Value="Banks" NavigateUrl="~/Banks.aspx">
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Reports" 
+                            Value="Statistics">
+                            <asp:MenuItem NavigateUrl="~/Reportbygroup.aspx" Text="By Group" 
+                                Value="By Group"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Reportssumar.aspx" Text="Summary" Value="Summary">
+                            </asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Views" Value="Views">
+                            <asp:MenuItem NavigateUrl="~/Groupsearch.aspx" Text="By Bloodgroup" 
+                                Value="By Bloodgroup"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Banksearch.aspx" Text="By Bank" 
+                                Value="By Bank"></asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/About.aspx" Text="About Us" Value="About">
+                        </asp:MenuItem>
+                    </Items>
+                </asp:Menu>
+            </div>
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+        
+    </div>
+    </form>
+</body>
+</html>

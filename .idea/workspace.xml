@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="777a5067-c92c-41f5-a03f-21903a080212" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/BBMS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/About.aspx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/About.aspx.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AccessDenied.aspx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AccessDenied.aspx.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Account/ChangePassword.aspx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Account/ChangePassword.aspx.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Account/ChangePasswordSuccess.aspx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Account/ChangePasswordSuccess.aspx.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Account/Login.aspx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Account/Login.aspx.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Account/Register.aspx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Account/Register.aspx.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Account/Web.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Adduser.aspx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Adduser.aspx.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App_Code/ClassDiagram.cd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App_Data/ASPNETDB.MDF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App_Data/aspnetdb_log.ldf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App_Data/bbmsdb.mdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App_Data/bbmsdb_log.LDF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BBMS.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BBMS.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Banks.aspx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Banks.aspx.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Banksearch.aspx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Banksearch.aspx.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Default.aspx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Default.aspx.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Global.asax" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Groupsearch.aspx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Groupsearch.aspx.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infoedit.aspx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infoedit.aspx.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infouse.aspx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infouse.aspx.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reportbygroup.aspx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reportbygroup.aspx.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reportssumar.aspx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reportssumar.aspx.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/jquery-1.4.1-vsdoc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/jquery-1.4.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/jquery-1.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/jquery-1.7.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/jquery-ui-1.8.18.custom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/jquery.printElement.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/jquery.ui.core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/jquery.ui.datepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/jquery.ui.widget.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Site.master" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Site.master.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Styles/Site.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Styles/jquery-ui-1.8.18.custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Styles/jquery.ui.all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Styles/jquery.ui.datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/adbank.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/admin.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/cancel.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/cross.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon_save.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/main.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/next.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/prev.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/save.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/tick.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protected/Addbank.aspx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protected/Addbank.aspx.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protected/Addinfo.aspx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protected/Addinfo.aspx.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protected/Infoadmin.aspx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protected/Infoadmin.aspx.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protected/Users.aspx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protected/Users.aspx.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protected/web.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testgridadd.aspx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testgridadd.aspx.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web.config" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1TenH74zjZ8c4Ine3CxgCp20A6h" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="777a5067-c92c-41f5-a03f-21903a080212" name="Default Changelist" comment="" />
+      <created>1573829338431</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573829338431</updated>
+      <workItem from="1573829361347" duration="1251000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
